@@ -1,11 +1,11 @@
 :root {
-  --bg: #faf7f2;
-  --bg-alt: #f2ece1;
-  --text: #262220;
-  --muted: #6f665d;
+  --bg: #f3f3f2;
+  --bg-alt: #e8e7e5;
+  --text: #232323;
+  --muted: #6b6b69;
   --accent: #52504b;
-  --accent-soft: #e6e3dd;
-  --border: #e3d9c8;
+  --accent-soft: #e0dfdc;
+  --border: #d9d8d5;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
