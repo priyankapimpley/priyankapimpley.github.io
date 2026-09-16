@@ -135,6 +135,10 @@ a {
   color: var(--accent);
 }
 
+a:hover {
+  color: #2f5fa8;
+}
+
 .muted {
   color: var(--muted);
 }
