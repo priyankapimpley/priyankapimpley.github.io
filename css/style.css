@@ -50,6 +50,10 @@ body {
   text-underline-offset: 2px;
 }
 
+.banner a:hover {
+  color: #a9c8f5;
+}
+
 /* Header */
 header.site {
   border-bottom: 1px solid var(--border);
@@ -104,6 +108,10 @@ footer.site {
 
 footer.site a {
   color: var(--muted);
+}
+
+footer.site a:hover {
+  color: #2f5fa8;
 }
 
 /* Typography */
