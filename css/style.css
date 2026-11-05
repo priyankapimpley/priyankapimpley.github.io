@@ -173,14 +173,14 @@ a:hover {
 /* Hero */
 .hero {
   display: flex;
-  gap: 32px;
+  gap: 40px;
   align-items: flex-start;
   margin-bottom: 8px;
 }
 
 .hero img {
-  width: 168px;
-  height: 168px;
+  width: 283px;
+  height: 425px;
   object-fit: cover;
   border-radius: 6px;
   flex-shrink: 0;
@@ -375,8 +375,8 @@ hr.div {
     flex-direction: column;
   }
   .hero img {
-    width: 128px;
-    height: 128px;
+    width: 200px;
+    height: 300px;
   }
   header.site .row {
     flex-direction: column;
