@@ -26,6 +26,14 @@ body {
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main.wrap {
+  flex: 1;
+  width: 100%;
 }
 
 .wrap {
@@ -99,19 +107,30 @@ nav.main a.active {
 
 /* Footer */
 footer.site {
-  border-top: 1px solid var(--border);
+  background: var(--accent);
+  color: #fff;
   margin-top: 64px;
-  padding: 24px 0 48px;
-  color: var(--muted);
+  padding: 28px 0 32px;
   font-size: 14px;
+  line-height: 1.7;
+}
+
+footer.site p {
+  margin: 0 0 14px;
+}
+
+footer.site p.copy {
+  margin: 0;
+  color: #cfcdc8;
+  font-size: 13px;
 }
 
 footer.site a {
-  color: var(--muted);
+  color: #fff;
 }
 
 footer.site a:hover {
-  color: #2f5fa8;
+  color: #a9c8f5;
 }
 
 /* Typography */
